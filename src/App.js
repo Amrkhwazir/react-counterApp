@@ -47,13 +47,6 @@ function App() {
 
 
 
-
-
-
-
-
-
-
   return (
     <div className="mainBox" style={{display: "flex",flexDirection: "column", justifyContent: "center",alignItems: "center", padding: "200px 0px",gap: "10px",textTransform: "capitalize" }}>
 
@@ -75,7 +68,7 @@ function CounterBtn({countInc, countDic, countValue, stepDic, stepInc, stepValue
   const getYear = date.getFullYear();
   
   return(
-    <div style={{backgroundColor: "rosybrown", padding:"30px 0px", color: "white", minWidth: "300px", textAlign: "center"}}>
+    <div style={{backgroundColor: "rosybrown", padding:"30px 10px", color: "white", minWidth: "300px", textAlign: "center"}}>
      
   <div style={{paddingLeft:"10px"}}> 
         <button style={{width: "60px", color: "white", backgroundColor: "black",fontSize: "16px", cursor: "pointer", border: "none", marginRight: "13px"}} onClick={stepDic}>-</button> step: {stepValue}
